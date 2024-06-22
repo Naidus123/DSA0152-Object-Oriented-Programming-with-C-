@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int intvalue;
+	cout<<"enter the integer value:";
+	cin>>intvalue;
+	float floatvalue=static_cast<float>(intvalue);
+	cout<<"float value:"<<floatvalue;
+	return 0;
+}
