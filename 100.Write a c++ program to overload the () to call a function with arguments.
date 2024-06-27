@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+class Function {
+public:
+    int operator()(int a, int b) {
+        return a + b;
+    }
+};
+int main() {
+    Function func;
+    int result = func(5, 3);
+    cout << "Result: " << result << endl;
+    return 0;
+}
